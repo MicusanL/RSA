@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UI">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="30" left="30" bottom="30" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <minimumSize width="300" height="300"/>
+      <preferredSize width="300" height="300"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="cc560" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="f5071"/>
+          <text value="N:"/>
+        </properties>
+      </component>
+      <component id="f5071" class="javax.swing.JTextField" binding="textFieldN">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="143"/>
+        </properties>
+      </component>
+      <component id="1be85" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="1d74b"/>
+          <text value="E:"/>
+        </properties>
+      </component>
+      <component id="2d9cb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <labelFor value="1d74b"/>
+          <text value="D:"/>
+        </properties>
+      </component>
+      <component id="1401f" class="javax.swing.JTextField" binding="textFieldD">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="103"/>
+        </properties>
+      </component>
+      <component id="1d74b" class="javax.swing.JTextField" binding="textFieldE">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="a8698" class="javax.swing.JButton" binding="buttonCrypt">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Crypt file"/>
+        </properties>
+      </component>
+      <component id="1a511" class="javax.swing.JButton" binding="buttonDecrypt">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Decrypt file"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
