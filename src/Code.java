@@ -129,10 +129,12 @@ public class Code {
         }
         while (charactersRead != bitReader.fileLength) {
 
-            charactersRead++;
+
             int m = bitReader.ReadNBits(8);
             int mCrypted = keys[charactersRead % 8] ^ m;
+            //System.out.println(m + " " + (mCrypted ^ keys[charactersRead % 8]));
             bitWriter.WriteNBits(mCrypted, 32);
+            charactersRead++;
 
         }
 
